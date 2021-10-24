@@ -1,9 +1,0 @@
----
-last_action: verify
-last_error:
-kitchen_terraform_outputs:
-  public_dns:
-    sensitive: false
-    type: string
-    value: ec2-52-91-196-232.compute-1.amazonaws.com
-kitchen_terraform_variables: {}
