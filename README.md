@@ -22,6 +22,11 @@ Change directory into the downloaded repo
 cd kitchen-terraform-docker-ec2
 ```
 
+Build the docker image based on Dockerfile with tag kitchen.
+```
+docker build -t kitchen .
+```
+
 Directory structure of this repo.
 ```
 $ tree
@@ -39,12 +44,6 @@ $ tree
     │           └── inspec.yml
     └── variables.tf
 $
-```
-
-
-Build the docker image based on Dockerfile with tag kitchen.
-```
-docker build -t kitchen .
 ```
 
 Start the docker image and return bash prompt.
