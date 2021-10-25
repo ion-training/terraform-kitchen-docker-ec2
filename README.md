@@ -44,7 +44,7 @@ $
 
 Build the docker image based on Dockerfile with tag kitchen.
 ```
-docker build -t kitchen
+docker build -t kitchen .
 ```
 
 Start the docker image and return bash prompt.
