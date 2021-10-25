@@ -1,6 +1,5 @@
 # kitchen-terraform-docker-ec2
 Create an EC2 instance on AWS and run tests. \
-Details can be found on this [link](https://newcontext-oss.github.io/kitchen-terraform/tutorials/amazon_provider_ec2.html).
 
 In this particular example, the tests is to check that the system is running Ubuntu operating system.
 
@@ -70,6 +69,10 @@ Notice you see everything from the tf_aws_cluster on the host (compare with abov
 └── variables.tf
 #
 ```
+
+# You can modify the variables in testing.tfvars
+
+
 # Create additional tests
 More tests can be added under controls directory. \
 Feel free to copy and modify the operating_system_spec.rb.
