@@ -53,8 +53,8 @@ docker container run \
  -v ~/.ssh/:/root/.ssh/ -it kitchen bash
 ```
 
-Directory structure from within the container.
-Notice you see everything from the tf_aws_cluster on the host (compare with above):
+Directory structure from within the container. \ 
+Notice that everything seen is the output from the tf_aws_cluster on the host (compare with above):
 ```
 # tree
 .
