@@ -20,11 +20,6 @@ resource "aws_security_group" "allow_ssh" {
   }
 }
 
-# resource "tls_private_key" "key" {
-#   algorithm   = "RSA"
-#   ecdsa_curve = "4096"
-# }
-
 resource "aws_key_pair" "kitchen_pub_key" {
   key_name   = "kitchen-pub-key_${random_pet.suffix.id}"
   public_key = file("~/.ssh/id_rsa.pub")
