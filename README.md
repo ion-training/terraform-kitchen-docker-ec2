@@ -70,8 +70,8 @@ Notice you see everything from the tf_aws_cluster on the host (compare with abov
 └── variables.tf
 #
 ```
-
-More tests can be added under controls directory.
+# Create additional tests
+More tests can be added under controls directory. \
 Feel free to copy and modify the operating_system_spec.rb.
 
 # How to run tests
