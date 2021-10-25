@@ -70,7 +70,9 @@ Notice you see everything from the tf_aws_cluster on the host (compare with abov
 #
 ```
 
-# You can modify the variables in testing.tfvars
+# Modify the variables in testing.tfvars (optional)
+For example you cam modify the instance type to t2.micro.
+
 
 
 # Create additional tests
