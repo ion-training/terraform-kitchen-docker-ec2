@@ -1,7 +1,7 @@
 # kitchen-terraform-docker-ec2
-Create an EC2 instance on AWS and run tests. \
+Create an EC2 instance on AWS and run a test.
 
-In this particular example, the tests is to check that the system is running Ubuntu operating system.
+In this particular example, the test is to check that the system is running Ubuntu operating system.
 
 Assumptions:
 - Linux/MacOS is used
