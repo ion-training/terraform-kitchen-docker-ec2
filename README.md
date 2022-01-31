@@ -1,4 +1,4 @@
-# kitchen-terraform-docker-ec2
+# terraform-kitchen-docker-ec2
 Create an EC2 instance on AWS and run a test.
 
 In this particular example, the test is to check that the system is running Ubuntu operating system.
@@ -13,12 +13,12 @@ Assumptions:
 
 Download this repository.
 ```
-git clone https://github.com/ionhashicorp/kitchen-terraform-docker-ec2.git
+git clone https://github.com/ionhashicorp/kitchen-kitchen-docker-ec2.git
 ```
 
 Change directory into the downloaded repo
 ```
-cd kitchen-terraform-docker-ec2
+cd terraform-kitchen-docker-ec2
 ```
 
 Build the docker image based on Dockerfile with tag kitchen.
